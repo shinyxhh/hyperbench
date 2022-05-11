@@ -41,4 +41,6 @@ require (
 
 replace golang.org/x/sys => github.com/golang/sys v0.0.0-20220330033206-e17cdc41300f
 
+replace github.com/hyperbench/hyperbench-common => github.com/shinyxhh/hyperbench-common v0.0.0-20220519023733-7b727a150c8a
+
 go 1.15
