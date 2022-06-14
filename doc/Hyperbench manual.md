@@ -924,7 +924,9 @@ port = "8546"
 1. **keypassword** ：ethereum账户密码，若未设置密码也可以不配置。
 
 ## Xuperchain
-如果您想进行Fabric的测试，请先阅读此手册。
+[注意]当前由于Xuperchain的go-sdk其中一个依赖第三方包未适配go1.17版本，所以使用xuperchain时，hyperbench主程序和xuperchain插件需要使用相同且1.17以下版本编译,例如统一使用go1.16版本。
+
+如果您想进行Xuperchain的测试，请先阅读此手册。
 例如，在`benchmark/xuperchain/evmContract`测试用例中。
 ### 账户
 至少需要配置一个有可使用代币的账户在main路径下，例如`benchmark/xuperchain/evmContract/xuperchain/keystore/main`。
